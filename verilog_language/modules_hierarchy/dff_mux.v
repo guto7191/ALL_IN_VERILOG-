@@ -1,4 +1,4 @@
-module top_module ( 
+module dff_mux ( 
     input clk, 
     input [7:0] d, 
     input [1:0] sel, 
