@@ -1,0 +1,104 @@
+$date
+	Sun Apr  5 12:27:13 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! sum $end
+$var wire 1 " cout $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % cin $end
+$scope module ad $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % cin $end
+$var wire 1 " cout $end
+$var wire 1 & sum0 $end
+$var wire 1 ! sum $end
+$var wire 1 ' cout2 $end
+$var wire 1 ( cout1 $end
+$scope module ad1 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 ( cout $end
+$var wire 1 & sum $end
+$upscope $end
+$scope module ad2 $end
+$var wire 1 & a $end
+$var wire 1 % b $end
+$var wire 1 ' cout $end
+$var wire 1 ! sum $end
+$upscope $end
+$upscope $end
+$scope task expect $end
+$var reg 1 ) valor_esperado $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#3
+0)
+#5
+1!
+1&
+1$
+#8
+1)
+#10
+0$
+1#
+#15
+0!
+1"
+0&
+1(
+1$
+#18
+0)
+#20
+0"
+0(
+1!
+0$
+0#
+1%
+#23
+1)
+#25
+1"
+0!
+1'
+1&
+1$
+#28
+0)
+#30
+0$
+1#
+#35
+1!
+0'
+0&
+1(
+1$
+#38
+1)
