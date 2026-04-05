@@ -1,0 +1,94 @@
+$date
+	Sun Apr  5 17:10:23 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$scope module subtrac $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 4 ( b_not [3:0] $end
+$var wire 1 % cin $end
+$var wire 4 ) sub [3:0] $end
+$var wire 1 " cout $end
+$scope module subs $end
+$var wire 4 * a [3:0] $end
+$var wire 4 + b [3:0] $end
+$var wire 1 % cin $end
+$var wire 4 , sum [3:0] $end
+$var wire 1 " cout $end
+$upscope $end
+$upscope $end
+$scope task expect $end
+$var reg 4 - valor_experado [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx -
+b1111 ,
+b1111 +
+b1111 *
+b1111 )
+b1111 (
+b0 '
+b1111 &
+1%
+b0 $
+b1111 #
+1"
+b1111 !
+$end
+#2
+b1111 -
+#4
+b1000 (
+b1000 +
+b1 !
+b1 )
+b1 ,
+b111 $
+b111 '
+b1000 #
+b1000 &
+b1000 *
+#6
+b1 -
+#8
+b110 (
+b110 +
+b0 !
+b0 )
+b0 ,
+b1001 $
+b1001 '
+b1001 #
+b1001 &
+b1001 *
+#10
+b0 -
+#12
+b0 (
+b0 +
+b0 !
+b0 )
+b0 ,
+b1111 $
+b1111 '
+b1111 #
+b1111 &
+b1111 *
+#14
