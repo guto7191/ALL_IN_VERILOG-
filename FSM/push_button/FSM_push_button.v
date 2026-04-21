@@ -43,7 +43,7 @@ module FSM_push_button(
 
 // Memory State
    always @(posedge clk, reset) begin
-        if(reset)begin
+        if(!reset)begin
             state <= close;    
         end 
         else begin

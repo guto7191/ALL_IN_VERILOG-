@@ -27,9 +27,9 @@ module testbench;
 
         $monitor(" press = %b | clk = %b | reset = %b | open_cw = %b | close_cw = %b", press, clk, reset, open_cw, close_cw);
         
-        reset = 1'b1; 
+        reset = 1'b0; 
         press = 1'b0;
-        #1 reset = 1'b0;
+        #1 reset = 1'b1;
         #1 press = 1'b1;
         #20 press = 1'b0;
         #1 press = 1'b1;
